@@ -1,0 +1,359 @@
+*{margin:0; padding:0;}
+a{text-decoration:none; color: #000;}
+ul{list-style:none;}
+
+@font-face {
+    font-family: 'GoyangIlsan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-7ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{color:#232323;}
+
+#bg{
+    width:100%; height:800px;
+    background:url(../image/sub3bg.jpg) no-repeat top;
+    background-size:cover;
+    
+    position:relative;
+    font-family:'GoyangIlsan';
+}
+
+.title,.subtitle{
+    font-family:'GoyangIlsan';
+    color:#fff; 
+    position:absolute;
+}
+    
+
+.title{
+    top:40%; left:265px;
+    font-size:50px;
+}
+
+.subtitle{
+    top:65%; left:265px;
+    font-size:25px;
+}
+
+.blacklogo{display:none;}
+
+/*headerbox*/
+.headeerbox{
+    position:absolute;
+    top:0; left:0;
+}
+
+/*top*/
+#top{width:100%; height:21px;
+    border-bottom:1.5px dotted rgba(251, 225, 234, 0.985);
+    
+}
+
+.top_inner{
+    width:1320px;
+    margin:0 auto;
+}
+
+.top_menu{float:right;}
+.top_menu li{float:left;}
+.top_menu li a{
+    display:block;
+    padding-left:20px;
+    font-size:15px;
+    color:#ccc; 
+   
+}
+
+.top_menu li a:hover{
+    color:rgb(110, 110, 110);
+    font-weight:bold;
+}
+
+/*top f*/
+
+
+
+/*header*/
+#header{
+    width:100%;
+    position:relative;
+    height:115.6px;
+}
+
+#header_inner{
+    width:100%; height:115.6px;
+}
+
+.header_menu>li{
+    float:left; 
+    width:20%; 
+    text-align:center;
+}
+
+.header_menu>li>a{
+    display:block;
+    padding:46.5px 0px;
+    font-size:20px;
+    color:#fff;
+}
+
+
+.header_menu li:nth-child(3) a{
+    padding:10px 90px;
+}
+.subbg{
+    display:none;
+    width:100%; height:200px;
+    position:absolute;
+    top:115px; left:0;
+    padding-top:20px; box-sizing:border-box;
+}
+
+.subbg ul{width:1320px; margin:0 auto;}
+
+.subbg .sub{ 
+    float:left; 
+    width:20%;
+    box-sizing: border-box;
+    text-align: center;
+}
+ 
+.subbg .none{visibility:hidden;}
+
+.sub li{
+    text-align:center;
+   
+} 
+
+.subbg{background-color: #fff;}
+.sub li a{
+    display:block; 
+    padding:20px 0;
+   
+}
+
+
+.header_menu li a:hover{
+    color:#ff6796;
+}
+
+/*header f*/
+
+
+.textbox{
+    font-family:'S-CoreDream-9Black';
+    text-align:center;
+    font-size:35px; color:#ff6796;
+    padding-bottom:55px;
+}
+
+/*exhibition s*/
+#exhibition{
+    /* width:1320px;  */
+    
+    height:1200px;
+    margin:150px auto;
+    text-align:center;
+}
+.box video{width:1100px;}
+
+.exhibition_txt{
+    font-family:'S-CoreDream-4Regular';
+    font-size:20px;
+    margin-top:40px;
+}
+
+
+
+/*exhibition f*/
+
+
+
+/*exhibition2 s*/
+#exhibition2{
+    overflow: hidden;
+    width:100%; height:2650px;
+    margin:0 auto;
+    background-color:#dd90a8;
+}
+
+.ex1{
+    width:100%;
+  height:500px;
+    margin:0 auto;
+}
+
+.ex1bg{
+    float:left; 
+    width:50%; height:500px;
+    background:url(../image/exhibition1.jpg) no-repeat top left;
+    display: inline-block;
+}
+.ex1txt{
+    float:right; 
+    width:40%;
+    padding:100px; box-sizing:border-box;
+    color:#fff;
+    height:500px;
+
+}
+
+.extxt1_1{
+    font-family:'S-CoreDream-6Bold';
+    font-size:25px; font-weight:bold;
+}
+.extxt1_2{
+    font-family:'S-CoreDream-3Light';
+    font-size:18px; font-weight:bold;
+}
+.extxt1_3{
+    font-family:'S-CoreDream-4Regular';
+    font-size:15px; font-weight:bold;
+    line-height:22px;
+}
+
+
+.ex2bg{
+    float:right; 
+    width:50%; height:500px;
+    background:url(../image/exhibition2.jpg) no-repeat top right;
+    display: inline-block;
+}
+
+.ex2txt{
+    height:500px;
+    float:left; 
+    width:50%;
+    padding:110px; box-sizing:border-box;
+    color:#fff;
+}
+
+.ex3bg{
+    float:left; 
+    width:50%; height:500px;
+    background:url(../image/exhibition3.jpg) no-repeat top left;
+    display: inline-block;
+}
+
+.ex1txt{
+    float:right; 
+    width:50%;
+    padding:110px; box-sizing:border-box;
+    color:#fff;
+}
+
+.ex4bg{
+    float:right; 
+    width:50%; height:500px;
+    background:url(../image/exhibition4.jpg) no-repeat top right;
+    display: inline-block;
+}
+
+.ex5bg{
+    float:left; 
+    width:50%; height:500px;
+    background:url(../image/exhibition5.jpg) no-repeat top left;
+    display: inline-block;
+}
+
+
+
+
+/*exhibition2 f*/
+
+
+
+
+
+/*footer*/
+#footer{
+    width:100%; height:350px;
+    background-color:#000;
+}
+
+.footer_inner{
+    width:1320px;
+    margin:0 auto; padding-top:80px;
+    color:#fff;
+}
+
+.footerlogo{
+    display:block;
+    float:left;
+    padding-right:48px;
+}
+
+.footer_inner .footer_text li{
+    float:left;
+}
+
+.footer_inner .footer_text li a{
+    display:block;
+    color:#fff;
+    padding-right:20px;
+}
+
+.footer_inner .footer_sns li{
+    float:right;
+}
+
+.footer_inner .footer_sns li a{
+    display:block;
+    padding-left:15px;
+
+}
+
+.footer_inner .footer_text2{
+    padding:60px 0 0 150px;
+}
+
+.up{padding-top:20px;}
+
+.footer_text li a:hover{color:#ccc;}
+.footer_sns li a:hover{opacity:50%;}
+
+/*footer*/
