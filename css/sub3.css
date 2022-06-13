@@ -193,8 +193,7 @@ body{color:#232323;}
 
 /*exhibition s*/
 #exhibition{
-    /* width:1320px;  */
-    
+    width:1320px;
     height:900px;
     margin:150px auto;
     text-align:center;
